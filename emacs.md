@@ -17,7 +17,3 @@ git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ```
 
 Make sure to add `~/.config/emacs/bin` to `$PATH` to get access to Doom helpers.
-
-> [!NOTE]
-> Is this all redundant? I want to set Emacs up using Nix. Also, will all my frustrations
-> with Emacs in the past (blocking, incompatible modules) reemerge?
