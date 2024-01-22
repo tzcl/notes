@@ -8,14 +8,15 @@ We can get something similar in Helix by using the `ltex` language server.
 To install it,
 1. Run `brew install ltex-ls` to install `ltex-ls` and its dependencies (the main one being Java)
 2. Add the following to your `languages.toml` configuration file (usually stored under `~/.config/helix/`)
-    ```toml
-    [language-server.ltex]
-    command = "/opt/homebrew/bin/ltex-ls"
-    
-    [language-server.ltex.config.ltex]
-    language = "en-AU"
-    
-    [language-server.ltex.config.ltex.dictionary]
-    # Add dictionary terms here
-    "en-AU" = ["FaceID"]
-    ```
+
+```toml
+[language-server.ltex]
+command = "/opt/homebrew/bin/ltex-ls"
+
+[language-server.ltex.config.ltex]
+language = "en-AU"
+
+[language-server.ltex.config.ltex.dictionary]
+# Add dictionary terms here
+en-AU = ["FaceID"]
+```
